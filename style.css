@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "PP Mori";
+    src: url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.eot");
+    src: url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.eot?#iefix")format("embedded-opentype"),
+        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.woff")format("woff"),
+        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.woff2")format("woff2"),
+        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.ttf")format("truetype"),
+        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.svg#PP Mori")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+
+:root{
+    width: 100vw;
+    height: 100vh;
+    font-family:"PP Mori";
+}
