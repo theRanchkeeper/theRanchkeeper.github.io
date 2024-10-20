@@ -13,19 +13,119 @@
         <header>
             <nav>
                 <div class="clickable">
-                    <span id="tohome">Home</span>
+                    <a id="tohome" class="nav-link" href="#home-sec">Home</a>
                 </div>
                 <div class="clickable">
-                    <span id="toabout">About me</span>
+                    <a id="toabout" class="nav-link" href="#about-sec">About me</a>
                 </div>
                 <div class="clickable">
-                    <span id="projects">projects</span>
+                    <a id="projects" class="nav-link" href="#projects-sec">projects</a>
                 </div>
                 <div class="clickable">
-                    <span id="contact">Contact</span>
+                    <a id="contact" class="nav-link" href="#contact-sec">Contact</a>
                 </div>
             </nav>
         </header>
+        <section class="pages" id="home-sec">
+            <div id="title-block">
+                <h1>Hi, I'm Abhiram M J</h1>
+                <h3>Student | Programmer </h3>
+            </div>
+            <div id="desc-block">
+                <p>
+                    I'm a Cochin university student in my final year of my Master's of computer applications degree, I'm
+                    a
+                    huge
+                    FOSS enthusiasit. I love programming and building softwares and games. I dived my head into computer
+                    science because of my passion for video game development which I kept as a hobby (for now).
+                </p>
+            </div>
+
+        </section>
+        <section class="pages" id="about-sec">
+            <p>
+                I'm based in Kerala southern part of India. With a work experience of 8-months as MERN stack developer
+            </p>
+            <figure>
+                <figcaption>Expertised in</figcaption>
+                <ul>
+                    <li>Backend Engineering</li>
+                    <li>Fullstack development</li>
+                    <li>Game development</li>
+                    <li>Graphic desgins</li>
+                </ul>
+            </figure>
+            <figure>
+                <figcaption>Techinical skills</figcaption>
+                <ul>
+                    <li>C/C++,Javascript,Python,Go,Java</li>
+                    <li>Flask,React,Nodejs</li>
+                    <li>Linux,Git</li>
+                    <li>Godot,Gimp,Inkscape</li>
+                </ul>
+            </figure>
+            <figure>
+                <figcaption>Misc</figcaption>
+                <ul>
+                    <li>Video gaming</li>
+                    <li>Watching Movies(Cinephile)</li>
+                    <li>Community management</li>
+                </ul>
+            </figure>
+        </section>
+        <section class="pages" id="projects-sec">
+            <!-- <div id="project-list">
+                <div class="card">
+                    <div class="title"></div>
+                    <div class="desc"></div>
+                </div>
+                <div class="card">
+                    <div class="title"></div>
+                    <div class="desc"></div>
+                </div>
+                <div class="card">
+                    <div class="title"></div>
+                    <div class="desc"></div>
+                </div>
+                <div class="card">
+                    <div class="title"></div>
+                    <div class="desc"></div>
+                </div>
+            </div> -->
+            <figure>
+                <figcaption>Projects done so far</figcaption>
+                <dl>
+                    <dt>Exoplanet prediction</dt>
+                    <dd>
+                        A Fullstack application to use a Exoplanet prediction model
+                        The model was desgined as part of an Academic assignment
+                        <a href="https://github.com/theRanchkeeper/Exoplanet-web">github</a>
+                    </dd>
+                    <dt>Basic TCP/IP server</dt>
+                    <dd>
+                        An Implementation of TCP/IP server in golang using net/http libraries
+                        <a href="https://github.com/theRanchkeeper/tcp-server">github</a>
+                    </dd>
+                    <dt>Minute Pizza</dt>
+                    <dd>
+                        A 2D game I developed as part of a game Jam using Godot Game engine
+                        <a href="https://github.com/theRanchkeeper/minute-pizza">github</a>
+                        <a href="https://theranchkeeper.itch.io/minute-pizza">demo</a>
+                    </dd>
+                    </ul>
+            </figure>
+        </section>
+        <section class="pages" id="contact-sec">
+            <form>
+                <label for="frm-name">Name</label>
+                <input type="text" name="name" id="frm-name" placeholder="Enter your name here">
+                <label for="frm-name">Email</label>
+                <input type="text" name="email" id="frm-email" placeholder="Enter your email here">
+                <label for="frm-name">Message</label>
+                <input type="text" name="Message" id="frm-msg" placeholder="Enter your Message">
+                <button type="submit">send</button>
+            </form>
+        </section>
     </div>
 </body>
 <footer>
