@@ -1,99 +1,69 @@
-@font-face{
-    font-family: "PP Mori";
-    src: url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.eot");
-    src: url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.eot?#iefix")format("embedded-opentype"),
-        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.woff")format("woff"),
-        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.woff2")format("woff2"),
-        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.ttf")format("truetype"),
-        url("./assets/fonts/pp-mori/64376f386b1017b6e322dfb558692b06.svg#PP Mori")format("svg");
-    font-weight:normal;
-    font-style:normal;
-    font-display:swap;
-}
-
-
-:root{
+:root {
     width: 100%;
     height: 100%;
-    font-family:"PP Mori";
 }
 
-html,body{
+html,
+body {
     margin: 0;
-    height:100%;
-    width:100%;
-    padding:0;
-    color: #a9b1d6;
-    background-color: #24283b;
+    height: 100%;
+    width: 100%;
+    padding: 0;
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    margin-bottom: 2em;
+    padding: 0 2em 1em 2em;
 }
 
-nav{
+nav {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    gap: 1em;
+    gap: 0.5em;
     margin: 1em 1em 0 0;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-top: .5em;
+    text-align: center;
 }
 
-.pages{
-    width: 100vw;
-    height: 100vh;
+.pages {
     display: block;
-}
+    min-width: 100vw;
+    min-height: 100vh;
 
-.nav-link:visited{
-    text-decoration: none;
-    color: #a9b1d6;
+    padding: 5em 3em 3em 3em;
 }
 .nav-link:link{
     text-decoration: none;
-    color: #a9b1d6;
-    font-size: larger;
-    font-weight: bold;
 }
 
-.nav-link:hover{
-    text-decoration: none;
-    color: #bb9af7;
+#profile{
+    width: 100%;
+    text-align: center;
+}
+#profile-desc p{
+    max-width:45%;
+    line-break: auto;
+
 }
 
-.nav-link:active{
-    color: #bb9af7;
-}
-
-p{
-    max-width: 40%;
-    max-height: 40%;
-}
-
-.card{
+#profile-desc {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: #bb9af7 .1em solid;
-    border-radius: 1em;
-    width: 20em;
-    height: 15em;
-}
-
-#project-list{
-    display: flex;
-    gap: 5%;
+    width: 100%;
     justify-content: center;
 }
 
-#project-list > .title{
-    
+#about-sec{
+    display: flex;
+    justify-content: center;
 }
